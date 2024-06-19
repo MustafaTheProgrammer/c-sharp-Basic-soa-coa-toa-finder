@@ -12,13 +12,13 @@ namespace SoaCoaToaFinder
             Console.WriteLine("Next write the adjacent side of your triangle.");
             double adjacent = Console.ReadLine();
 
-            Console.WriteLine("Finally write the hypothenuse side of your triangle");
+            Console.WriteLine("Finally write the hypothenuse side of your triangle.");
             double hypothenuse = Console.ReadLine();
 
-            Console.WriteLine("Great! Now I'll write down the sine, cosine, and tangent.")
-            Console.WriteLine("The sine is " + opposite / hypothenuse)
-            Console.WriteLine("The cosine is " + adjacent / hypothenuse)
-            Console.WriteLine("The tangent is " + opposite / adjacent)
+            Console.WriteLine("Great! Now I'll write down the sine, cosine, and tangent.");
+            Console.WriteLine("The sine is " + opposite / hypothenuse);
+            Console.WriteLine("The cosine is " + adjacent / hypothenuse);
+            Console.WriteLine("The tangent is " + opposite / adjacent);
         }
     }
 }
